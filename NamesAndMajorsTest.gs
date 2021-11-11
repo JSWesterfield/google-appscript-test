@@ -20,6 +20,7 @@
  * students in a sample spreadsheet:
  * https://docs.google.com/spreadsheets/d/afewffew4cv43vadefc2wg4v/edit
  */
+ 
 function logNamesAndMajors() {
   var spreadsheetId = 'afewffew4cv43vadefc2wg4v';
   var rangeName = 'A2:E31';
