@@ -20,7 +20,7 @@
  * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
  */
 function logNamesAndMajors() {
-  var spreadsheetId = '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms';
+  var spreadsheetId = 'sheetsGIdasdwer3r32-fake';
   var rangeName = 'Class Data!A2:E';
   var values = Sheets.Spreadsheets.Values.get(spreadsheetId, rangeName).values;
   if (!values) {
