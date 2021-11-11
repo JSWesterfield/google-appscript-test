@@ -17,10 +17,10 @@
 /**
  * Creates a Sheets API service object and prints the names and majors of
  * students in a sample spreadsheet:
- * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
+ * https://docs.google.com/spreadsheets/d/afewffew4cv43vadefc2wg4v/edit
  */
 function logNamesAndMajors() {
-  var spreadsheetId = 'sheetsGIdasdwer3r32-fake';
+  var spreadsheetId = 'afewffew4cv43vadefc2wg4v';
   var rangeName = 'Class Data!A2:E';
   var values = Sheets.Spreadsheets.Values.get(spreadsheetId, rangeName).values;
   if (!values) {
