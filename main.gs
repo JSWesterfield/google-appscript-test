@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 // [START sheets_quickstart]
+// NOTE: MANUALLY CALL GOOGLE SHEETS LIBRARY/SERVICE via the Services Directory within AppScripts Editor. Code will not run without this. 
 /**
  * Creates a Sheets API service object and prints the names and majors of
  * students in a sample spreadsheet:
