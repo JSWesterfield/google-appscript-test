@@ -22,7 +22,7 @@
  */
 function logNamesAndMajors() {
   var spreadsheetId = 'afewffew4cv43vadefc2wg4v';
-  var rangeName = 'Class Data!A2:E';
+  var rangeName = 'A2:E31';
   var values = Sheets.Spreadsheets.Values.get(spreadsheetId, rangeName).values;
   if (!values) {
     Logger.log('No data found.');
